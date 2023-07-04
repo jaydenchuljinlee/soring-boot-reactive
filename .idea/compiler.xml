@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.1.2-SNAPSHOT/d3bab8211c60066a3c0bc4a7608e12aa5e9ea533/spring-boot-configuration-processor-3.1.2-SNAPSHOT.jar" />
+        </processorPath>
+        <module name="reactive.main" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="17" />
   </component>
 </project>

@@ -1,0 +1,16 @@
+spring:
+  r2dbc:
+    url: r2dbc:pool:mysql://localhost:3306/sync_async
+    username: root
+    password:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sync_async
+    username: root
+    password:
+    hikari:
+      connectionTimeout: 30000
+      maximumPoolSize: 5
+      maxLifetime: 1800000
+      poolName: HikariCP
+      readOnly: false
+      connectionTestQuery: SELECT 1
