@@ -30,7 +30,6 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	runtimeOnly("com.github.jasync-sql:jasync-r2dbc-mysql:2.0.8")
 
-
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
 	implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
